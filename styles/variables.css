@@ -1,1 +1,30 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --font-family-main: "Inter-Variable", sans-serif;
+    --font-family-accent: "PressStart2P", fantasy;
+    --font-weight-article-title: 715;
+    --font-weight-article-text: 410;
+    --bg-gradient: repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(0deg, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+    --block-size: clamp(375px, 90%, 700px);
+    --border-block: 2px solid #000;
+    --header-title-size: clamp(3.0625rem, 1.9087rem + 4.9231vw, 4.0625rem);
+    --header-text-size: clamp(0.875rem, 0.1719rem + 2.25vw, 1.4375rem);
+    --header-vertical-offset: clamp(121px, 9.027vw, 130px);
+    --bg-articles: #fff;
+    --font-size-article: 18px;
+
+    --label-color: 0, 0, 0;
+    --label-opacity: 0.5;
+    --label-stroke-color: #aaa;
+    --label-font-size: 14px;
+    --label-font-weight: 400;
+
+    --accent-color: #fff;
+    --main-color: #000;
+    --contour-color: #000;
+    --animation-fill-color: #ff0000;
+    --sparks-color: #ff0000;
+
+}
