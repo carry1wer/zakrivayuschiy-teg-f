@@ -11,12 +11,13 @@
 */
 
 .page {
+  background-image: var(--bg-gradient);
+  background-position: cover;
+  background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--font-family-main);
   font-variation-settings: "wght" var(--font-weight-article-title);
-  background-image: var(--bg-gradient);
-  background-position: cover;
   width: var(--block-size);
   margin: 0 auto;
 }
