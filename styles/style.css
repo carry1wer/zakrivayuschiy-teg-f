@@ -17,7 +17,6 @@
   font-variation-settings: "wght" var(--font-weight-article-title);
   background-image: var(--bg-gradient);
   background-position: cover;
-  background-repeat: no-repeat;
   width: var(--block-size);
   margin: 0 auto;
 }
